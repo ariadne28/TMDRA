@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://ariadne28.github.io/TMDRA/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "example manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "an example manifest with an object with an old tender",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Arianna Denitto",
+  "sequences" : [ {
+    "@id" : "http://06ddb203-87f0-4e88-9adf-0f6ff066688e",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://017f1381-ebd9-433a-bba3-d83c53618cd7",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1536,
+      "width" : 2048,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6faca52a-6579-48e3-9fb5-3f48e18ca669",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ariadne28.github.io/TMDRA/images/nomadic/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ariadne28.github.io/TMDRA/images/nomadic",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1536,
+          "width" : 2048
+        },
+        "on" : "http://017f1381-ebd9-433a-bba3-d83c53618cd7"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
